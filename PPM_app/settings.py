@@ -11,8 +11,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os
 from pathlib import Path
-
-import DATABASES as DATABASES
 from django.conf import settings
 import dj_database_url
 
@@ -35,9 +33,9 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "django-insecure-kcvy6(9e8moyx0
 
 DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
-ALLOWED_HOSTS = ["djangorailway-production.up.railway.app", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["djangorailway-production-a2927.up.railway.app", "127.0.0.1", "localhost"]
 
-CSRF_TRUSTED_ORIGINS = ['https://djangorailway-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://djangorailway-production-a2927.up.railway.app']
 
 # Application definition
 
