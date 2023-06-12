@@ -1,1 +1,1 @@
-web: python manage.py makemigrations && python manage.py migrate && python manage.py collectstatic --noinput && gunicorn myFitnessWebsite.wsgi --log-file -
+web: gunicorn myFitnessWebsite.wsgi --log-file -
