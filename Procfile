@@ -1,1 +1,1 @@
-web: gunicorn myFitnessWebsite.wsgi --log-file -
+web: gunicorn PPM_app.wsgi --log-file -
